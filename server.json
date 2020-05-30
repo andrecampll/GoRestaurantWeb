@@ -3,7 +3,7 @@
     {
       "id": 1,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "name": "PRATAO DE MACARRAO",
+      "name": "Ao molho",
       "price": "19.90",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
       "available": true
