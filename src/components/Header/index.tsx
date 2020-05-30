@@ -19,6 +19,7 @@ const Header: React.FC<IHeaderProps> = ({ openModal }) => (
             type="button"
             onClick={() => {
               /* TODO OPEN MODAL */
+              openModal();
             }}
           >
             <div className="text">Novo Prato</div>
