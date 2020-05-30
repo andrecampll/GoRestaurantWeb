@@ -31,6 +31,9 @@ export const Form = styled(Unform)`
 
     .text {
       padding: 16px 24px;
+      @media (max-width: 358px) {
+        display: none;
+      }
     }
 
     .icon {
