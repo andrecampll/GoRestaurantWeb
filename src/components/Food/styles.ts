@@ -8,6 +8,18 @@ export const Container = styled.div<IFoodPlateProps>`
   background: #222;
   border-radius: 8px;
 
+  transition: transform 0.2s linear;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-10px);
+  }
+
+  @media (max-width: 885px) {
+    margin-bottom: 20px;
+  }
+
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
@@ -25,6 +37,8 @@ export const Container = styled.div<IFoodPlateProps>`
     img {
       pointer-events: none;
       user-select: none;
+      width: auto;
+      height: auto;
     }
   }
 
@@ -59,6 +73,10 @@ export const Container = styled.div<IFoodPlateProps>`
     align-items: center;
 
     padding: 20px 30px;
+    @media (max-width: 1047px) {
+      padding: 20px 20px;
+      margin-bottom: auto;
+    }
     background: #303030;
     border-radius: 0px 0px 8px 8px;
 
@@ -89,6 +107,10 @@ export const Container = styled.div<IFoodPlateProps>`
 
       p {
         color: #ccc;
+
+        @media (max-width: 1178px) {
+          display: none;
+        }
       }
 
       .switch {
